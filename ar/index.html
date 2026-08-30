@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PayFlow جيبوتي — ادفع، تابع، طابق، انمُ</title>
+<meta name="description" content="يساعد PayFlow جيبوتي الأعمال على تحصيل المدفوعات الرقمية ومتابعتها ومطابقتها من لوحة واحدة بسيطة.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&family=Tajawal:wght@400;500;700;800&family=Cairo:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav wrap">
+    <a href="index.html" class="brand"><img src="../assets/logo.png" alt="PayFlow Djibouti logo"> PayFlow<span style="color:var(--blue-600)">.</span></a>
+    <ul class="nav-links"><li><a class="active" href="index.html">الرئيسية</a></li><li><a class="" href="solution.html">الحل</a></li><li><a class="" href="who.html">عملاؤنا</a></li><li><a class="" href="pricing.html">الأسعار</a></li><li><a class="" href="contact.html">تواصل معنا</a></li></ul>
+    <div class="nav-right">
+      <div class="lang-switch"><a class="" href="../en/index.html">EN</a><span>·</span><a class="" href="../fr/index.html">FR</a><span>·</span><a class="active" href="../ar/index.html">AR</a></div>
+      <a href="contact.html" class="nav-cta">احجز عرضاً تجريبياً</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu" id="navToggle"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">مدفوعات التجار · جيبوتي</span>
+      <h1>كل عملية بيع، وكل تسوية، <span class="accent">في لوحة واحدة.</span></h1>
+      <p class="lead">يجمع PayFlow جيبوتي مبيعاتك النقدية وعبر البطاقة والمحفظة الإلكترونية في مكان واحد — بحيث تستغرق مطابقة إيرادات اليوم دقائق لا ساعات.</p>
+      <div class="hero-ctas">
+        <a href="contact.html" class="btn-primary">احصل على عرض تجريبي ←</a>
+        <a href="solution.html" class="btn-ghost">شاهد ما يقدمه</a>
+      </div>
+      <div class="hero-stats"><div><strong>ادفع</strong><span>التحصيل رقمياً</span></div><div><strong>تابع</strong><span>متابعة كل عملية بيع</span></div><div><strong>طابق</strong><span>مطابقة المستحقات</span></div><div><strong>انمُ</strong><span>قرارات مبنية على البيانات</span></div></div>
+    </div>
+    <div class="flow-visual" aria-hidden="true">
+      <svg viewBox="0 0 420 420">
+        <defs>
+          <linearGradient id="flowGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#6FD8FF"/>
+            <stop offset="100%" stop-color="#2B7CF2"/>
+          </linearGradient>
+        </defs>
+        <path class="flow-path" d="M40,70 C140,70 100,180 210,180 C320,180 260,300 380,300"/>
+        <path class="flow-path" d="M40,180 C120,180 130,240 210,220 C290,200 320,300 380,300" style="animation-delay:-1.5s; opacity:0.6;"/>
+        <path class="flow-path" d="M40,300 C140,300 150,220 210,220 C280,220 300,300 380,300" style="animation-delay:-3s; opacity:0.4;"/>
+        <circle class="flow-node" cx="40" cy="70" r="5" fill="#6FD8FF"/>
+        <circle class="flow-node" cx="40" cy="180" r="5" fill="#6FD8FF"/>
+        <circle class="flow-node" cx="40" cy="300" r="5" fill="#6FD8FF"/>
+        <circle class="flow-node" cx="380" cy="300" r="7" fill="#2B7CF2"/>
+      </svg>
+      <div class="flow-card" style="top:6%; inset-inline-start:0;">💳 عملية بالبطاقة<div class="amt" style="">2,400 د.ج</div></div><div class="flow-card" style="top:42%; inset-inline-start:2%;">📱 محفظة إلكترونية<div class="amt" style="">1,150 د.ج</div></div><div class="flow-card" style="top:78%; inset-inline-start:0;">💵 نقداً<div class="amt" style="">3,000 د.ج</div></div><div class="flow-card" style="top:74%; inset-inline-end:0;border-color:rgba(31,191,117,0.4);">✓ تمت المطابقة<div class="amt" style="color:#5EE6A8;">6,550 د.ج</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="problem" id="problem">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="tag" style="color:var(--cyan-300)">المشكلة</span>
+      <h2>الأموال تأتي من كل مكان. لكن الإجابات لا تأتي.</h2>
+      <p>النقد والبطاقات والمحفظة الإلكترونية تعمل كل منها بطريقة مختلفة — وفي نهاية الشهر، تكلف مطابقتها يدوياً وقتاً حقيقياً وثقة حقيقية.</p>
+    </div>
+    <div class="problem-grid reveal"><div class="problem-cell"><span class="num">01</span><p>تُفقد بعض العمليات بين الصندوق وجهاز الدفع وكشف الحساب البنكي.</p></div><div class="problem-cell"><span class="num">02</span><p>يُعاد تجميع التقرير اليومي يدوياً في نهاية يوم طويل.</p></div><div class="problem-cell"><span class="num">03</span><p>توقيت التسويات غير واضح — لا أحد متأكد مما تم صرفه فعلاً.</p></div><div class="problem-cell"><span class="num">04</span><p>رؤية أصحاب العمل لمبيعاتهم محدودة ما لم يسألوا الموظفين مباشرة.</p></div></div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <div class="foot-brand"><img src="../assets/logo.png" alt="PayFlow Djibouti"> PayFlow Djibouti</div>
+        <div class="foot-tagline">ادفع · تابع · طابق · انمُ</div>
+      </div>
+      <div class="foot-links">
+        <div><h4>المنتج</h4><a href="solution.html">المزايا</a><a href="pricing.html">الأسعار</a></div>
+        <div><h4>الشركة</h4><a href="who.html">عملاؤنا</a><a href="contact.html">تواصل معنا</a></div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 PayFlow جيبوتي. جميع الحقوق محفوظة.</span>
+      <span>جيبوتي</span>
+    </div>
+  </div>
+</footer>
+<script src="../assets/script.js"></script>
+</body>
+</html>
